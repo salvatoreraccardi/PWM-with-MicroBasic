@@ -1,10 +1,11 @@
 # PWM-with-mikroBasic
 Manage eight LEDs via PWM
+### Declarations Zone
 ```sh
-program MyProject
-
-' Declarations section 
   dim k,h,t_on,t_off as byte
+```
+### Main
+```sh
 main:
 trisa=255
 trisb=0
